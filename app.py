@@ -30,15 +30,19 @@ with st.sidebar:
     order_id = st.text_input("Order ID", value="ORD-9921")
     
     st.subheader("Omnichannel Delivery")
-    channel = st.selectbox("Simulate Channel", ["Web Interface", "WhatsApp"])
+    channel = st.selectbox("Simulate Channel", ["🌐 Web Interface", "💬 WhatsApp"])
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+# Determine current avatar
+bot_avatar = "🤖" if channel == "🌐 Web Interface" else "💬"
+
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    avatar = bot_avatar if message["role"] == "assistant" else "👤"
+    with st.chat_message(message["role"], avatar=avatar):
         st.markdown(message["content"])
 
 @st.cache_resource
@@ -66,7 +70,7 @@ def setup_rag_pipeline():
         "You must ONLY answer questions based on the provided context (shipping, returns, and warranties). "
         "If the user asks a question that is not covered in the context, or asks to speak to a human, you must say: "
         "'I specialize in shipping, returns, and warranties. For other inquiries, please contact our support team at support@company.com or type CREATE TICKET to escalate this to a human agent.' "
-        "If the Channel is 'WhatsApp', you must keep your answers extremely short, use bullet points, and use emojis. "
+        "If the Channel is '💬 WhatsApp', you must keep your answers extremely short, use bullet points, and use emojis. "
         "Do not guess or make up answers.\n\n"
         "Channel: {channel}\n\n"
         "Context: {context}"
@@ -110,11 +114,11 @@ if prompt := st.chat_input("Ask a question (e.g., What is your return policy?)")
                 writer.writerow(['TicketID', 'CustomerName', 'OrderID', 'Timestamp'])
             writer.writerow([ticket_id, customer_name, order_id, datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
         
-        st.chat_message("user").markdown(prompt)
+        st.chat_message("user", avatar="👤").markdown(prompt)
         st.session_state.messages.append({"role": "user", "content": prompt})
         
         escalation_response = f"🎫 **Ticket Created!** Your support ticket ID is `{ticket_id}`. A human agent will review your chat history and contact you shortly."
-        st.chat_message("assistant").markdown(escalation_response)
+        st.chat_message("assistant", avatar=bot_avatar).markdown(escalation_response)
         st.session_state.messages.append({"role": "assistant", "content": escalation_response})
         st.stop()
 
@@ -127,12 +131,12 @@ if prompt := st.chat_input("Ask a question (e.g., What is your return policy?)")
         writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), prompt, channel, customer_name])
 
     # Display user message in chat message container
-    st.chat_message("user").markdown(prompt)
+    st.chat_message("user", avatar="👤").markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     # Get bot response
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar=bot_avatar):
         with st.spinner("Thinking..."):
             response = rag_chain.invoke({
                 "input": prompt,
