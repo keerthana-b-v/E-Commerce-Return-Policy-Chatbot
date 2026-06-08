@@ -25,13 +25,7 @@ I also tested the bot on specific, tricky rules from the policy to ensure it ret
 
 ![Tricky Policy Handling](Tricky%20Policy.png)
 
-### 3. "Brutal" Multi-Conditional Edge Cases
-To really stress-test the LLM's reasoning capabilities, I added complex, multi-layered rules to the policy. The bot successfully parses these difficult scenarios:
-- **Electronics & Restocking Fees**: If asked *"I opened my new laptop 10 days ago and want to return it,"* the bot correctly identifies that it falls within the 14-day electronics window but warns the user about the 15% broken-seal restocking fee.
-- **Missing Receipts**: If asked *"I lost my receipt for a shirt,"* it informs the user they will only receive store credit for the lowest selling price in the last 60 days.
-- **Holiday Sales**: If asked *"Can I get a refund for a TV I bought on Black Friday?"* it strictly denies the refund and offers an exchange only.
-
-### 4. Missing Information
+### 3. Missing Information
 If asked about a topic not covered in the text (like international returns), the bot gracefully falls back to the guardrail rather than making up a fake policy.
 
 ![Missing Info Handling](Missing%20Information.png)

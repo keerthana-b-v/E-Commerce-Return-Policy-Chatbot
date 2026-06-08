@@ -1,7 +1,10 @@
 import os
+import csv
+import random
+from datetime import datetime
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -14,8 +17,20 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 # Streamlit App Title
-st.title("🛍️ E-Commerce Return Policy Chatbot")
-st.write("Ask me anything about our return and refund policies!")
+st.title("🛍️ E-Commerce Customer Support Bot")
+st.write("Ask me anything about our shipping, returns, and warranties!")
+
+# --- Sidebar: CRM & Omnichannel Simulation ---
+with st.sidebar:
+    st.header("🏢 Kapture CX Simulation")
+    st.write("These settings simulate enterprise context injection.")
+    
+    st.subheader("CRM Context (Customer 360)")
+    customer_name = st.text_input("Customer Name", value="John Doe")
+    order_id = st.text_input("Order ID", value="ORD-9921")
+    
+    st.subheader("Omnichannel Delivery")
+    channel = st.selectbox("Simulate Channel", ["Web Interface", "WhatsApp"])
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
@@ -28,8 +43,8 @@ for message in st.session_state.messages:
 
 @st.cache_resource
 def setup_rag_pipeline():
-    # 1. Load the document
-    loader = TextLoader("return_policy.txt", encoding="utf-8")
+    # 1. Load the documents
+    loader = DirectoryLoader("data/", glob="**/*.txt", loader_cls=TextLoader, loader_kwargs={'encoding': 'utf-8'})
     docs = loader.load()
 
     # 2. Split the document into chunks
@@ -44,13 +59,16 @@ def setup_rag_pipeline():
     # 4. Setup LLM
     llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
 
-    # 5. Create System Prompt Guardrail
+    # 5. Create System Prompt Guardrail with CRM Context
     system_prompt = (
         "You are a helpful customer support assistant for an e-commerce store. "
-        "You must ONLY answer questions based on the provided context (the return policy). "
-        "If the user asks a question that is not covered in the return policy, you must say: "
-        "'I apologize, but I can only assist with questions related to our return and refund policy.' "
+        "The customer's name is {customer_name} and they are asking about order {order_id}. Greet them by name. "
+        "You must ONLY answer questions based on the provided context (shipping, returns, and warranties). "
+        "If the user asks a question that is not covered in the context, or asks to speak to a human, you must say: "
+        "'I specialize in shipping, returns, and warranties. For other inquiries, please contact our support team at support@company.com or type CREATE TICKET to escalate this to a human agent.' "
+        "If the Channel is 'WhatsApp', you must keep your answers extremely short, use bullet points, and use emojis. "
         "Do not guess or make up answers.\n\n"
+        "Channel: {channel}\n\n"
         "Context: {context}"
     )
 
@@ -81,6 +99,33 @@ except Exception as e:
 
 # React to user input
 if prompt := st.chat_input("Ask a question (e.g., What is your return policy?)"):
+    
+    # MOCK TICKETING SYSTEM (Human Handoff Simulation)
+    if prompt.strip().lower() == "create ticket":
+        ticket_id = f"TKT-{random.randint(1000, 9999)}"
+        # Log ticket to CSV
+        with open('tickets.csv', mode='a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            if f.tell() == 0:
+                writer.writerow(['TicketID', 'CustomerName', 'OrderID', 'Timestamp'])
+            writer.writerow([ticket_id, customer_name, order_id, datetime.now().strftime("%Y-%m-%d %H:%M:%S")])
+        
+        st.chat_message("user").markdown(prompt)
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        
+        escalation_response = f"🎫 **Ticket Created!** Your support ticket ID is `{ticket_id}`. A human agent will review your chat history and contact you shortly."
+        st.chat_message("assistant").markdown(escalation_response)
+        st.session_state.messages.append({"role": "assistant", "content": escalation_response})
+        st.stop()
+
+    # Log the interaction
+    with open('chat_logs.csv', mode='a', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        # Write header if file is empty
+        if f.tell() == 0:
+            writer.writerow(['Timestamp', 'UserQuery', 'Channel', 'CustomerName'])
+        writer.writerow([datetime.now().strftime("%Y-%m-%d %H:%M:%S"), prompt, channel, customer_name])
+
     # Display user message in chat message container
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
@@ -89,7 +134,12 @@ if prompt := st.chat_input("Ask a question (e.g., What is your return policy?)")
     # Get bot response
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = rag_chain.invoke({"input": prompt})
+            response = rag_chain.invoke({
+                "input": prompt,
+                "customer_name": customer_name,
+                "order_id": order_id,
+                "channel": channel
+            })
             answer = response["answer"]
             st.markdown(answer)
             # Add assistant response to chat history
