@@ -32,7 +32,36 @@ If asked about a topic not covered in the text (like international returns), the
 
 ---
 
+## Tech Stack & Architecture
+This project is built using a production-ready client-server architecture:
+- **Backend (API Layer)**: Built with **FastAPI**, **LangChain**, and the **Groq API** (`llama-3.1-8b-instant`). It handles the RAG pipeline, semantic search (via local **FAISS** and **HuggingFace** embeddings), and interaction logging.
+- **Frontend (UI Layer)**: A clean, modern **HTML/CSS/JS** single-page application that connects to the backend API. It features a sidebar for CRM simulation settings and a centered, sleek chat window.
+
+---
+
 ## Getting Started
-1. Add your Groq API key to the `.env` file (`GROQ_API_KEY=your_key_here`).
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `streamlit run app.py`
+
+### 1. Setup Environment
+Add your Groq API key to a `.env` file in the root directory:
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Backend API
+Start the FastAPI server:
+```bash
+python -m uvicorn main:app --port 8000 --reload
+```
+The API documentation (Swagger UI) will be available at `http://127.0.0.1:8000/docs`.
+
+### 4. Open the Frontend
+Simply open the `index.html` file in any web browser! Alternatively, serve it locally:
+```bash
+python -m http.server 8080
+```
+Then visit `http://localhost:8080` in your browser.

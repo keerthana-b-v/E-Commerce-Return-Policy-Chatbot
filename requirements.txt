@@ -6,3 +6,5 @@ faiss-cpu
 python-dotenv
 langchain-community
 sentence-transformers
+fastapi
+uvicorn

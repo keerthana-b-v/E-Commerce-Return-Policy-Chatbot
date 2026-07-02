@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Support Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar for CRM Simulation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <span class="icon">🏢</span>
+                <h2>Simulation Settings</h2>
+            </div>
+            <p class="sidebar-desc">These settings simulate enterprise CRM context injection into the AI prompt.</p>
+            
+            <div class="crm-section">
+                <h3>Customer 360 Context</h3>
+                <div class="input-group">
+                    <label for="customerName">Customer Name</label>
+                    <input type="text" id="customerName" value="John Doe" placeholder="Enter customer name">
+                </div>
+                <div class="input-group">
+                    <label for="orderId">Order ID</label>
+                    <input type="text" id="orderId" value="ORD-9921" placeholder="Enter order ID">
+                </div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <p>Connected to FastAPI API</p>
+                <div class="status-indicator">
+                    <span class="status-dot online"></span>
+                    <span id="apiStatus">Checking backend...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <h1>🛍️ Customer Support Assistant</h1>
+                <p>Ask anything about shipping, returns, and product warranties.</p>
+            </header>
+
+            <!-- Chat Message Thread -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be populated by JS -->
+                <div class="message assistant">
+                    <div class="avatar">🤖</div>
+                    <div class="message-content-wrapper">
+                        <div class="message-content">
+                            Hello! I am your automated customer support assistant. How can I help you with your shipping, returns, or warranties today?
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input Panel -->
+            <div class="chat-input-panel">
+                <form id="chatForm" class="chat-form">
+                    <input type="text" id="userInput" placeholder="Ask a question (e.g., What is your return policy?)" required autocomplete="off">
+                    <button type="submit" id="sendBtn">
+                        <span class="btn-text">Send</span>
+                        <div class="spinner" id="spinner"></div>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
