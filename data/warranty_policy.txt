@@ -1,28 +1,152 @@
-=========================================
-GLOBAL E-COMMERCE RETAIL CO. - OFFICIAL MANUFACTURER LIMITED WARRANTY POLICY
-=========================================
-Last Updated: January 1, 2026
+================================================================================
+E-COMMERCE GLOBAL RETAIL GROUP - COMPREHENSIVE PRODUCT WARRANTY POLICY
+Document Reference: POL-WAR-2026-V3
+Effective Date: January 1, 2026
+Last Updated: May 10, 2026
+================================================================================
 
-1. Warranty Coverage Scope and Duration
-We stand behind the quality of our engineering and products. All consumer electronics and mechanical items purchased directly from our official online store or authorized dealers are covered by a one (1) year limited manufacturer warranty. The warranty period begins exactly on the date of purchase or the date of delivery (whichever is documented later). This warranty covers all manufacturing defects in materials, components, and workmanship. If a hardware defect occurs and a valid claim is received within the warranty period, we will either repair the defect, exchange the item for a brand-new unit, or issue store credit.
+1. WARRANTY GUARANTEE
+E-Commerce Global Retail Group stands behind the quality and craftsmanship of our products. We warrant that all products sold on our platform are free from manufacturing defects in materials and workmanship under normal consumer use for the duration of the warranty period specified for each product category. This policy details coverage parameters, exclusions, registration, claims processing, and consumer rights.
 
-2. Clear Exclusions and Void Conditions
-This limited warranty is non-transferable and only applies to the original purchaser of the product. The warranty does not cover:
-* Accidental physical damage, drops, dents, cosmetic scratches, structural bends, or broken screens.
-* Liquid or water damage of any kind, including submersion, moisture ingress, or exposure to extreme weather.
-* Damage caused by normal wear and tear, battery degradation over time, or usage outside of recommended guidelines.
-* Products used for commercial, rental, or industrial purposes rather than private residential use.
-* Any hardware modifications or unauthorized repairs performed by a third-party repair shop or the user. Opening the product shell or tampering with the internal circuitry will immediately void this warranty.
+2. WARRANTY TYPES AND COVERAGE PERIODS
+Warranty coverage varies by product class:
+2.1. Electronics and Smart Devices:
+    - Standard 1-Year Limited Warranty: Covers hardware failure, motherboard defects, screen malfunctions, and internal battery degradation (if the capacity drops below 80% of original specification within the first year).
+2.2. Furniture, Home Goods & Apparel:
+    - 2-Year Limited Structural Warranty: Covers frame breaks, joint failures, sagging springs, and structural defects in wooden or metal furniture.
+    - Clothing and fabrics are subject to a 90-day limited warranty covering zipper failures, seam unraveling, or manufacturing defects present upon delivery.
+2.3. Premium Brand Tools & Appliances:
+    - 5-Year Extended Limited Warranty: Covers mechanical failure, motor burnouts, and electrical faults under residential operating conditions.
+2.4. Refurbished / Open Box Items:
+    - 90-Day Limited Warranty: All certified refurbished or open-box items purchased directly from our website are backed by a 90-day warranty covering basic functionality.
 
-3. Claims Process and Filing Requirements
-To file a formal warranty claim, please contact our customer support desk or submit a ticket under the warranty claim section on our website. You must provide the following documentation to qualify for a review:
-* The original digital or printed invoice/receipt showing the date of purchase, retailer name, and product price.
-* A clear photograph or video demonstration highlighting the defect or structural failure.
-* The unique serial number located on the bottom of the device or on the product box.
-Once submitted, our technical assessment team will review the claim within three to five (3-5) business days and email you with approval or rejection details.
+3. EXCLUSIONS FROM COVERAGE
+This warranty covers only manufacturing defects. It strictly does not cover:
+    a) Normal wear and tear associated with regular product usage (e.g., fabric pilling, leather creasing, minor scratches, scuffs).
+    b) Accidental damage, drop damage, physical abuse, neglect, improper storage, or exposure to extreme temperatures, moisture, or liquid submersion.
+    c) Damage caused by natural disasters (fires, floods, earthquakes, lighting strikes) or electrical power surges.
+    d) Use of the product in a commercial, professional, or industrial setting (unless the product is explicitly marketed and sold as "Commercial Grade").
+    e) Damage resulting from improper assembly, installation, maintenance, or failure to follow the manufacturer's user manual.
+    f) Products that have been modified, customized, or repaired by unauthorized third-party technicians.
+    g) Consumable parts designed to diminish over time (e.g., disposable batteries, light bulbs, filters, vacuum bags, printer ink cartridges).
 
-4. Replacement Shipping and Logistics Fees
-If your warranty claim is approved, we will provide you with a prepaid shipping label to return the defective unit to our repair center. We will cover all shipping costs associated with returning the defective item and shipping the replacement or repaired unit back to you. If the technical inspection team determines that the product was damaged due to user abuse (rather than a manufacturing defect), the claim will be denied, and the customer will be responsible for a return shipping fee of $15.00 to receive their original product back.
+4. WARRANTY REGISTRATION PROCESS
+4.1. Auto-Registration:
+    - Any product purchased directly through our website is automatically registered for its standard warranty using the customer's Order ID (e.g., ORD-9921) and the transaction timestamp.
+4.2. Retail / Gift Purchases:
+    - If you received the product as a gift or purchased it through an authorized physical retail partner, you must register the product online within 30 days of purchase.
+    - To register, visit https://ai-customer-support-conversational-agent.onrender.com/warranty-registration and upload a digital copy of the purchase receipt along with the product serial number.
 
-5. Extended Warranty Options and Registration
-Customers have the option to purchase an extended two-year (2-year) care package within thirty (30) days of their original purchase. Registering your product online at registry.company.com within fourteen (14) days of delivery will grant you an additional ninety (90) days of limited warranty coverage for free. For any questions regarding warranty claims, registration status, or service extensions, please contact our dedicated warranty division at warranty@company.com.
+5. HOW TO SUBMIT A WARRANTY CLAIM
+To submit a warranty claim, follow these steps:
+Step 1: Contact customer support. You must provide your Order ID, customer name, and the product serial number.
+Step 2: Describe the defect or malfunction in detail. Provide clear digital photographs or a brief video (under 20MB) demonstrating the issue.
+Step 3: Our technical team will review the claim within 3 business days. They may guide you through basic troubleshooting steps to see if the issue can be resolved remotely.
+Step 4: If the claim is approved, a Return Merchandise Authorization (RMA) number will be issued.
+Step 5: We will provide a pre-paid return shipping label. Pack the item securely in a box, write the RMA number clearly on the outside, and ship it back to our inspection facility.
+Step 6: Upon receipt, our warranty team will inspect the item. If the defect is verified as a covered manufacturing issue, we will execute a resolution within 5 business days.
+
+6. RESOLUTION REMEDIES
+If a covered defect is found, the company will, at its sole discretion, choose one of the following remedies:
+6.1. Repair:
+    - Repair the product using new or refurbished replacement parts. The repaired product inherits the remaining duration of the original warranty or receives a 90-day warranty (whichever is longer).
+6.2. Replacement:
+    - Replace the product with an identical new or refurbished unit of equivalent performance. If the model is discontinued, we will replace it with a comparable model of equal or greater value.
+6.3. Refund:
+    - If a repair or replacement is mathematically or logistically unfeasible, we will refund the original purchase price or issue store credit.
+
+7. EXTENDED WARRANTY PLANS
+7.1. Customers have the option to purchase an "E-Commerce Protection Plan" at checkout.
+7.2. These plans extend the standard warranty coverage by an additional 1, 2, or 3 years and include accidental damage protection (drops, spills, screen cracks).
+7.3. Extended warranties are managed by our partner underwriting service, Assurant/Allstate. Claims under the protection plan must be submitted through their dedicated portal as specified in your protection plan confirmation email.
+
+8. LIMITATION OF LIABILITY
+8.1. To the maximum extent permitted by local law, this warranty and the remedies set forth above are exclusive and in lieu of all other warranties, remedies, and conditions, whether oral, written, statutory, express, or implied.
+8.2. The company specifically disclaims any and all statutory or implied warranties, including, without limitation, warranties of merchantability and fitness for a particular purpose.
+8.3. The company is not responsible for direct, special, incidental, or consequential damages resulting from any breach of warranty or condition, including loss of use, loss of revenue, loss of actual or anticipated profits, or loss of data.
+
+9. REGIONAL CONSUMER RIGHTS LAWS
+9.1. United States:
+    - This warranty gives you specific legal rights, and you may also have other rights which vary from state to state. Some states do not allow limitations on how long an implied warranty lasts, so the above limitations may not apply to you.
+9.2. European Union:
+    - Under EU consumer protection regulations, consumers have a statutory right to a minimum 2-year guarantee on all new physical goods purchased from a professional seller, regardless of our commercial warranty terms.
+9.3. Australia:
+    - Our goods come with guarantees that cannot be excluded under the Australian Consumer Law. You are entitled to a replacement or refund for a major failure and compensation for any other reasonably foreseeable loss or damage.
+
+10. COMPREHENSIVE WARRANTY CLAIM DISPUTE RESOLUTION AND ARBITRATION
+In the event that a warranty claim is contested or denied and a mutual agreement cannot be reached between the customer and our customer advocacy department, the following formal dispute resolution procedures shall govern:
+10.1. Informal Resolution:
+    - The customer must first file a written appeal to our claims review manager at appeals@ecommercegroup.com. This appeal must outline the specific grounds of contestation. A senior coordinator will investigate the appeal and reply with a written decision within 15 calendar days.
+10.2. Formal Arbitration:
+    - If the dispute remains unresolved, it shall be settled exclusively through binding arbitration administered by the American Arbitration Association (AAA) in accordance with its Consumer Arbitration Rules. The arbitration hearing will be conducted via web-based videoconferencing or at a mutually convenient physical location. Each party will bear their own legal expenses.
+
+11. CASE STUDY RESOLUTION SCENARIOS
+To clarify how warranty claims are assessed, review these typical resolution scenarios:
+Case Study 1: Motor Failure on a Blender after 14 Months
+- Product: Professional E-Commerce Blender ($200.00 retail, 5-year warranty category).
+- Symptom: Motor hums but blades do not spin.
+- Claim Assessment: Technician inspects and confirms the motor gears stripped due to normal wear of a slightly misaligned gear shaft (manufacturing defect).
+- Casing condition: Clean, no signs of drop impact or water intrusion.
+- Resolution: Approved. Motor replacement parts shipped and repaired at zero cost to the customer.
+Case Study 2: Dropped Phone Screen Malfunction after 6 Months
+- Product: Premium E-Commerce Smart Phone ($800.00 retail, 1-year warranty category).
+- Symptom: Screen flickers and touch functionality is dead.
+- Claim Assessment: Technician notes micro-cracks under the screen panel, consistent with high-velocity impact, and scrapes on the metal chassis (physical drop).
+- Resolution: Denied. The standard warranty excludes drop/physical damage. Customer is referred to the Assurant Extended Protection Plan (if purchased) or offered a paid repair for $199.00.
+Case Study 3: Furniture Joint Split after 18 Months
+- Product: Wooden Dining Table ($600.00 retail, 2-year warranty category).
+- Symptom: The central joint in the table support frame has split.
+- Claim Assessment: Photos show dry-rot splitting along the wood grain direction (defect in timber quality selection).
+- Resolution: Approved. Table frame replacement dispatched to customer.
+
+12. WARRANTY FAQS
+Q1: Do I have to pay for shipping when returning a product under warranty?
+A: No. If your warranty claim is approved for inspection, we will provide a pre-paid shipping label. We cover all return shipping costs for valid warranty claims.
+
+Q2: Is the warranty transferable to a new owner if I sell the product?
+A: No. Our standard warranties are non-transferable and apply only to the original purchaser of the product.
+
+Q3: What happens if I lost my original receipt?
+A: If the item was purchased on our website, we can look up your registration using your email, name, or Order ID. If purchased elsewhere, a receipt is mandatory.
+
+Q4: Does opening the product casing void the warranty?
+A: Yes. Any unauthorized opening of electronic casings, breaking of warranty seals, or disassembly of mechanical parts will immediately void the warranty.
+
+Q5: Are software glitches covered under warranty?
+A: Hardware failures are covered, but software operating systems or firmware bugs are not. We provide free software and firmware updates to address bugs, but do not replace hardware due to software errors.
+
+Q6: What is a refurbished replacement?
+A: A refurbished replacement is a unit that has been returned by another customer, thoroughly tested, cleaned, repaired if necessary, and certified by our quality control team to perform like new.
+
+Q7: Does this warranty cover cosmetic issues?
+A: No. Cosmetic issues like minor scratches, color fading, or normal wear on surfaces are not covered unless they impede the functional operation of the product.
+
+Q8: How long does a warranty repair take?
+A: Typically, a repair takes 7 to 14 business days from the date the package arrives at our service center.
+
+Q9: Can I buy an extended warranty after my purchase?
+A: Yes. You can purchase the E-Commerce Protection Plan up to 30 days after your original purchase date.
+
+Q10: Who can I contact if my warranty claim was denied?
+A: If you believe your claim was denied in error, you can request an appeal by emailing our warranty manager at customeradvocacy@ecommercegroup.com.
+
+Q11: Are items purchased at secondary clearance outlets covered by the warranty?
+A: No. Any items purchased from liquidators, second-hand stores, eBay auctions, or unauthorized secondary sellers are strictly sold "as-is" and do not carry our corporate product warranty.
+
+Q12: Does this warranty cover battery replacement for smart electronics?
+A: Rechargeable lithium batteries naturally degrade. We replace the battery under warranty only if its capacity falls below 80% within the 1-year window. Natural degradation down to 85% or 90% is considered normal wear and tear and is not covered.
+
+Q13: What happens if a repaired item fails again?
+A: If a repaired item fails due to a recurring manufacturing issue, the repair warranty is renewed for another 90 days or carries the remainder of your original warranty (whichever is longer).
+
+Q14: Can I request a cash refund instead of a replacement under warranty?
+A: No. Our warranty commitment is to repair or replace the product. Cash refunds are only issued if we are unable to repair the item and do not have a suitable replacement model in stock.
+
+Q15: What happens if my product gets damaged due to a power surge?
+A: Power surge damage is not covered under our manufacturer warranty. We recommend plugging all high-value electronics into high-quality surge protectors to prevent electrical damage.
+
+Q16: Can I file a warranty claim if I received the product as a gift and do not have the Order ID?
+A: Yes, you can. We require the gift sender's full name, email address, or phone number to locate the transaction in our database. Alternatively, providing the product serial number (located on the silver product tag) allows us to trace the manufacturing batch and confirm the warranty coverage period.
+
+Q17: Is original packaging required when returning a defective item for warranty repair/replacement?
+A: No. Unlike standard 30-day returns, you do not need the original retail box to submit a warranty claim. However, you are responsible for packaging the defective unit securely in any sturdy cardboard box with sufficient bubble wrap or padding to prevent physical damage during transit, as shipping transit damage is not covered under the warranty.

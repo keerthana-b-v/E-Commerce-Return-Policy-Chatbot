@@ -1,22 +1,144 @@
-=========================================
-GLOBAL E-COMMERCE RETAIL CO. - OFFICIAL RETURN & REFUND POLICY
-=========================================
-Last Updated: January 1, 2026
+================================================================================
+E-COMMERCE GLOBAL RETAIL GROUP - COMPREHENSIVE RETURN & REFUND POLICY
+Document Reference: POL-RET-2026-V4
+Effective Date: January 1, 2026
+Last Updated: March 15, 2026
+================================================================================
 
-1. Standard Return Window and Eligibility
-We want you to be fully satisfied with your purchase. Standard items purchased from our store are eligible for return within thirty (30) calendar days from the date of purchase or delivery, whichever is later. To qualify for a full refund back to your original payment method, the returned items must be in brand-new, unused, unwashed condition, with all original tags, labels, and product packaging fully intact. Items returned with signs of wear, odor, wash, or alterations will be rejected or subject to a fifty percent (50%) restocking fee at our sole discretion.
+1. GENERAL PHILOSOPHY & OBJECTIVE
+At E-Commerce Global Retail Group, we strive to build long-term relationships with our customer base. We understand that purchases do not always work out, and we aim to make the return process as straightforward, transparent, and fair as possible. This document outlines the absolute guidelines, exceptions, protocols, and instructions governing all returns, exchanges, refunds, and store credits. By purchasing from our platform, you agree to the terms laid out herein.
 
-2. Return Methods and Shipping Fees
-Customers are responsible for the return shipping costs unless the item arrived damaged, defective, or we made a shipment error. You can initiate a return by logging into your account, navigating to your orders page, and requesting a prepaid shipping label. The cost of the return shipping label (flat rate of $5.99) will be deducted from your final refund amount. Alternatively, you may drop off eligible returns at any of our authorized local partner retail hubs free of charge. Please present the QR code generated in your account to the store associate at drop-off.
+2. STANDARD RETURN PERIOD AND ELIGIBILITY CRITERIA
+2.1. Standard return window is exactly 30 calendar days from the date of confirmed delivery. The delivery date is defined by the tracking details provided by our third-party logistics partners (e.g., FedEx, UPS, DHL, USPS).
+2.2. To be eligible for a full refund to the original payment method:
+    a) The item must be unused, unwashed, unworn, and in the same condition as received.
+    b) The item must be in its original, undamaged packaging, including all manufacturer tags, hangers, labels, instructions, documentation, inserts, protective plastic wraps, and accessories.
+    c) Proof of purchase (original order confirmation email, receipt, packing slip, or order ID) is strictly required for processing.
+2.3. Exceptions to the 30-Day Window:
+    - Electronics, mobile phones, tablets, smart watches, and computers are subject to a shortened 14-calendar-day return window due to rapid depreciation.
+    - VIP Platinum Loyalty Members are eligible for an extended 60-day return window.
+    - Holiday Return Policy extension: Orders placed between November 1st and December 25th of any calendar year may be returned until January 31st of the following calendar year.
 
-3. Processing Times and Refund Issuance
-Once your return package arrives at our central fulfillment warehouse, it will undergo a manual inspection by our quality assurance team. This verification process typically takes between three to five (3-5) business days. Once the return is approved, we will issue a refund back to your original payment method. Depending on your financial institution or credit card issuer, it may take an additional five to seven (5-7) business days for the funds to reflect in your account. You will receive an automated email confirmation once the refund has been processed.
+3. RESTOCKING FEES & RETURN SHIPPING COST RESPONSIBILITY
+3.1. Standard Domestic Returns:
+    - Return shipping is free if the customer opts for a return label generated through our online return portal, provided the refund is taken as Store Credit (gift card).
+    - If the customer requests a refund to the original payment method, a flat return shipping and processing fee of $5.99 will be deducted from the final refund amount.
+3.2. Restocking Fees:
+    - Opened or unsealed electronics (laptops, mobile phones, cameras) are subject to a 15% restocking fee of the original purchase price. This is due to the costs associated with testing, refurbishing, and repackaging the item for open-box resale.
+    - Large furniture items and heavy appliances are subject to a 20% restocking fee. Return shipping for these freight items must be coordinated by the customer and is not subsidized by the company.
+3.3. International Returns:
+    - All return shipping costs for orders shipped outside the domestic country of origin are the sole responsibility of the customer.
+    - The company does not refund original customs duties, tariffs, VAT, or local taxes paid during the import of the goods. Customers must contact their local customs office directly to request duty refunds for returned items.
 
-4. Exclusions and Final Sale Items
-Certain product categories are strictly excluded from our standard return policy due to safety, hygiene, or liquidation terms:
-* Clearance and Liquidated items marked as "Final Sale" cannot be returned, exchanged, or refunded under any circumstances.
-* Personal hygiene products, undergarments, swimwear (if the protective hygiene liner is removed), and cosmetics are final sale unless unopened in original shrink-wrap.
-* Gift cards, e-gift vouchers, and downloadable digital software or assets are completely non-refundable and non-exchangeable.
+4. DETAIL BY PRODUCT CATEGORY
+4.1. Apparel, Clothing & Footwear:
+    - Must have all tags attached. Footwear must be returned in the original shoebox without shipping labels pasted directly onto the shoe box itself (the shoebox must be placed inside an outer shipping box).
+    - Swimwear and intimate apparel must retain the original hygiene seal strip intact. Any signs of removal or tampering will immediately invalidate the return eligibility.
+4.2. Software, Digital Goods & Media:
+    - Physical software, DVDs, video games, and audio CDs cannot be returned once the shrink-wrap or security seal is broken. If defective, they can only be exchanged for an identical replacement copy.
+    - Digital downloads, software license keys, e-gift cards, and online course access are strictly non-refundable once the purchase is complete.
+4.3. Perishables, Health & Personal Care:
+    - Groceries, flowers, cosmetics, skincare products, supplements, and items with expiration dates are not returnable.
+    - Hazardous materials, flammable liquids, or gases cannot be returned under any circumstances due to carrier shipping safety regulations.
 
-5. Damaged, Defective, or Incorrect Shipments
-If you receive an item that is broken, structurally defective, or completely different from what you ordered, please contact our support team within forty-eight (48) hours of delivery. We will issue a prepaid return label and ship out a replacement unit immediately at no additional cost to you. If a replacement unit is unavailable, we will issue a full refund including the original shipping fees. Please provide clear photographic evidence of the damage or mismatch when submitting your support ticket.
+5. THE STEP-BY-STEP RETURN PROCESS
+To initiate a return, please follow these instructions carefully:
+Step 1: Navigate to our Online Return Portal at https://ai-customer-support-conversational-agent.onrender.com/returns
+Step 2: Enter your 9-digit Order ID (e.g., ORD-9921) and your email address.
+Step 3: Select the items from your order that you wish to return, choose the reason for the return from the dropdown menu, and select your preferred refund method (Original Payment Method or Store Credit).
+Step 4: Print the generated pre-paid return shipping label and the Return Authorization Slip.
+Step 5: Place the Return Authorization Slip inside your package along with the items. Ensure the items are securely packaged to prevent damage during transit.
+Step 6: Affix the pre-paid shipping label to the outside of the box, ensuring any old shipping labels are completely covered or removed.
+Step 7: Drop the package off at any authorized shipping carrier location (FedEx, UPS, or USPS, as specified on the label) within 7 days of generating the label.
+Step 8: Retain the drop-off receipt and tracking number for your records. We are not responsible for packages lost in transit without proof of drop-off.
+
+6. REFUND TIMES AND ISSUANCE
+6.1. Once a returned package arrives at our central fulfillment warehouse, it undergoes a mandatory inspection process. This inspection takes between 3 to 5 business days to complete.
+6.2. If approved, the refund will be processed immediately:
+    - Store Credit refunds are issued via digital gift card and sent directly to the customer's registered email address within 24 hours of approval.
+    - Refunds to the original payment method (Credit Cards, PayPal, Apple Pay, Google Pay) will be processed back to the financial institution. Depending on the card issuer's policies, it typically takes 5 to 10 additional business days for the funds to reflect in your bank account.
+6.3. If an item fails inspection (e.g., is dirty, shows signs of wear, is missing parts), our team will contact you. The item will either be sent back to you at your expense, or a partial store credit (no more than 30% of the item's value) will be offered at our discretion.
+
+7. COMPREHENSIVE EXCHANGES
+7.1. Direct size or color exchanges are free. To exchange an item, use the online portal and select "Exchange" instead of "Return." A pre-paid label will be issued, and the replacement order will be dispatched once the original item is scanned at the carrier facility.
+7.2. If you wish to exchange an item for a completely different product, we recommend opting for Store Credit. Once the store credit is issued, you can use it to place a new order on our website immediately.
+
+8. DAMAGED, DEFECTIVE, OR INCORRECT ITEMS
+8.1. If you receive an item that is damaged, defective, or incorrect, you must report it within 48 hours of delivery. Contact customer support via our chat interface or email support@ecommercegroup.com.
+8.2. You must provide clear digital photographs showing the damage, defect, or the incorrect item received, as well as a picture of the shipping box's label.
+8.3. Once verified, we will issue a replacement at no additional cost and provide a pre-paid return label for the damaged/defective item. If a replacement is unavailable, a full refund including original shipping costs will be issued.
+
+9. LATE OR MISSING REFUNDS
+9.1. If you have not received your refund after 10 business days from the confirmation email, first check your bank account or contact your credit card issuer, as there is often a processing delay.
+9.2. Next, contact your bank. There is often some processing time before a refund is posted.
+9.3. If you've completed these steps and still have not received your refund, please contact our support team at accounting@ecommercegroup.com.
+
+10. EXAMPLE REFUND CALCULATION SCENARIOS
+To provide absolute clarity, here are three realistic examples of refund calculations under this policy:
+Scenario A: Standard Clothing Return (Refund to Credit Card)
+- Customer buys a jacket for $100.00.
+- Customer returns the item within 30 days because of fit issues.
+- The item is inspected, tags are intact, and it passes quality assurance.
+- The customer requested a refund to their original credit card.
+- Deductions: $5.99 return processing fee.
+- Net Refund Issued: $94.01.
+Scenario B: Opened Electronic Device Return (Refund to Credit Card)
+- Customer buys a smart watch for $300.00.
+- Customer opens the plastic shrink-wrap, uses it for 5 days, and decides to return it.
+- The item is returned within the 14-day window.
+- The item is inspected and works, but has been opened/unsealed.
+- Deductions: 15% Restocking Fee ($45.00) + $5.99 return processing fee.
+- Total Deductions: $50.99.
+- Net Refund Issued: $249.01.
+Scenario C: Standard Clothing Return (Refund to Store Credit)
+- Customer buys shoes for $150.00.
+- Customer returns the shoes because they want a different color.
+- The customer requests Store Credit.
+- Deductions: $0.00 (the return shipping fee is waived when selecting store credit).
+- Net Refund Issued: $150.00 (issued as an online gift card code).
+
+11. DETAILED FREQUENTLY ASKED QUESTIONS (FAQs)
+Q1: Can I return an item without the original packaging?
+A: No. Original packaging is required to ensure the product remains undamaged during transit and can be resold. If packaging is missing, we may reject the return or charge a repackaging fee.
+
+Q2: Can I return sale items or items purchased with a promo code?
+A: Regular sale items can be returned following the standard 30-day policy. However, items marked as "Final Sale," "Clearance," or "Non-Returnable" cannot be returned or exchanged under any circumstances.
+
+Q3: Can I combine multiple returns from different orders into one package?
+A: No. Each return authorization is tied to a specific Order ID. Combining items from different orders in one box will confuse the sorting systems at our warehouse, leading to massive delays or cancellation of your refund.
+
+Q4: What happens if my return package is lost by the post office?
+A: If you used our pre-paid label and have a drop-off receipt showing the tracking number and carrier scan, we will honor the refund. If you shipped the package yourself without our label or cannot provide a receipt, we cannot issue a refund.
+
+Q5: Will my original shipping fees be refunded?
+A: No. Original shipping fees (Standard, Express, Overnight) are non-refundable service fees paid to the carrier. We only refund the cost of the products purchased.
+
+Q6: I received a item as a gift. Can I return it?
+A: Yes. If you have the order number or the sender's details, you can return it. The refund will be issued as store credit (gift card) so the sender will not be notified.
+
+Q7: Can I return an item in person at a warehouse?
+A: No. Our warehouses are automated logistics centers and cannot accept public walk-ins. All returns must be mailed using the online return portal.
+
+Q8: Do you charge restocking fees on clothes?
+A: No. Clothing is not subject to restocking fees, provided it is unworn, clean, and has all tags attached. Restocking fees are only applied to electronics and oversized items.
+
+Q9: What is store credit, and does it expire?
+A: Store credit is issued as a digital gift card code. It can be used for any future purchase on our website and never expires.
+
+Q10: Can I cancel a return request after I submit it online?
+A: Yes. If you decide to keep the item, simply do not ship it back. The return request will automatically expire after 21 days of inactivity, and no action will be taken.
+
+Q11: What is your policy for returns from Alaska, Hawaii, and US Territories?
+A: Returns from Alaska, Hawaii, Puerto Rico, Guam, and the US Virgin Islands are not eligible for free return shipping under store credit. A flat fee of $12.99 will be deducted from the refund regardless of the refund method.
+
+Q12: Do VIP tier level members get special return privileges?
+A: Yes. Silver tier members get 45 days, Gold members get 50 days, and Platinum members get 60 days to return products. Additionally, Gold and Platinum members have the $5.99 return processing fee completely waived for all payment methods.
+
+Q13: What happens if my product becomes defective after the 30-day return window?
+A: Defective items reported after 30 days are no longer eligible for a standard return or refund, but are covered under our Comprehensive Product Warranty Policy. Please consult the warranty documentation for repair/replacement claims.
+
+Q14: Can I request a refund to a different bank card if my original card has expired?
+A: Under federal anti-money laundering laws, we are strictly required to process all refunds back to the original card used at purchase. If your card has expired or the account is closed, the bank will route the funds to your new card or mail you a check. We cannot manually input a different card number.
+
+Q15: What happens if I return an item that was purchased as part of a "Buy One, Get One" (BOGO) promotion?
+A: If you return only one of the items from a BOGO promotion, the refund will adjust to reflect the promotion value. The item you keep will be charged at its full retail price, and the remainder of the BOGO discount will be deducted from the returned item's refund value.

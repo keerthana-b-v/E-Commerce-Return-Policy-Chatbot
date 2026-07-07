@@ -1,26 +1,147 @@
-=========================================
-GLOBAL E-COMMERCE RETAIL CO. - OFFICIAL DOMESTIC SHIPPING & DELIVERY POLICY
-=========================================
-Last Updated: January 1, 2026
+================================================================================
+E-COMMERCE GLOBAL RETAIL GROUP - COMPREHENSIVE SHIPPING & DELIVERY POLICY
+Document Reference: POL-SHIP-2026-V5
+Effective Date: January 1, 2026
+Last Updated: April 2, 2026
+================================================================================
 
-1. Order Processing and Handling Time
-All orders placed on our website are processed and prepared for shipping within twenty-four (24) business hours. Orders placed before 2:00 PM EST (Eastern Standard Time) Monday through Friday are usually dispatched from our fulfillment facility on the same day. Orders placed after 2:00 PM EST, on weekends, or during official federal holidays will be processed on the following business day. You will receive an automated shipping confirmation email containing your tracking number as soon as the carrier scans your package.
+1. LOGISTICS OVERVIEW
+E-Commerce Global Retail Group is dedicated to delivering your purchases in a secure, efficient, and timely manner. We partner with world-class shipping carriers including FedEx, United Parcel Service (UPS), DHL Express, and regional postal networks (such as USPS) to offer global coverage. This shipping policy describes our rates, timelines, delivery guarantees, routing options, address requirements, handling guidelines, international shipping regulations, and lost package claiming procedures.
 
-2. Domestic Shipping Tiers and Rates
-We offer three main shipping methods for orders delivered within the contiguous United States:
-* Standard Ground Shipping: Takes between three to five (3-5) business days for delivery. Standard shipping is a flat rate of $4.99 for all orders, or completely FREE if your order subtotal is fifty dollars ($50.00) or more before taxes and after any discount codes are applied.
-* Expedited Shipping: Premium air/ground service that guarantees delivery within one to two (1-2) business days. Expedited shipping is available for a flat surcharge of $14.99 regardless of order value.
-* Next-Day Air Shipping: Overnight delivery option available for orders placed before 12:00 PM EST on business days. Next-Day shipping is available for a flat surcharge of $29.99.
+2. ORDER PROCESSING AND HANDLING TIMES
+2.1. Handling and fulfillment time refers to the period between the placement of an order and the moment the package leaves our warehouse facility.
+2.2. Standard Processing Schedule:
+    - Orders placed Monday through Friday before our daily cut-off time of 2:00 PM EST are processed and shipped within 24 to 48 hours.
+    - Orders placed after 2:00 PM EST on Friday, or during the weekend (Saturday and Sunday), will be processed the following Monday (excluding national holidays).
+    - Orders placed during national holidays or high-volume peak promotional events (e.g., Black Friday, Cyber Monday, Prime Days) may experience extended processing times of up to 4 business days.
+2.3. Signature Confirmation:
+    - Orders valued at $200.00 or higher are subject to mandatory signature confirmation upon delivery to ensure safety. The customer must ensure an adult is present to sign for the package.
 
-3. Geographic Coverage Restrictions
-At this time, we only ship orders within the contiguous United States. We do not support shipping to:
-* Alaska, Hawaii, Puerto Rico, Guam, or any other US Territories.
-* APO/FPO/DPO military addresses due to complex customs clearance procedures.
-* International destinations outside of the United States.
-We are actively working on expanding our logistics network to support these regions in the future.
+3. DOMESTIC SHIPPING OPTIONS, COSTS, AND TIMELINES
+We offer several domestic shipping methods designed to meet varying speed and budget requirements:
+3.1. Standard Ground Shipping:
+    - Cost: Free for all orders exceeding a subtotal of $50.00 (before taxes and after discounts). For orders below $50.00, a flat shipping fee of $4.99 is applied.
+    - Delivery Timeline: 3 to 7 business days depending on distance from our primary fulfillment centers (located in Kentucky, Nevada, and Pennsylvania).
+3.2. Expedited Shipping (3-Day Select):
+    - Cost: Flat rate of $9.99 for all orders.
+    - Delivery Timeline: Exactly 3 business days from the ship date.
+3.3. Express Shipping (2-Day Air):
+    - Cost: Calculated at checkout based on package weight and destination zip code (typically ranges from $14.99 to $24.99).
+    - Delivery Timeline: Exactly 2 business days.
+3.4. Overnight Priority Shipping (Next-Day Air):
+    - Cost: Calculated at checkout (typically ranges from $29.99 to $49.99).
+    - Delivery Timeline: Next business day delivery, guaranteed by 12:00 PM local time.
+3.5. Same-Day Delivery:
+    - Available only in select major metropolitan areas (New York City, Los Angeles, Chicago, Houston, Miami) for orders placed before 10:00 AM local time.
+    - Cost: Flat rate of $19.99.
 
-4. Package Tracking and Delivery Insurance
-Every shipment is fully insured against loss, theft, or damage during transit at no additional cost to the customer. Once your order leaves our facility, you can monitor its progress using the tracking link sent via email. Please note that tracking numbers may take up to twenty-four (24) hours to show active tracking events on the carrier's portal. If your package tracking states "Delivered" but you have not received it, please check with neighbors, building management, or wait 24 hours as carriers sometimes mark packages as delivered prematurely.
+4. ADDRESS RESTRICTIONS AND PO BOXES
+4.1. PO Boxes and APO/FPO/DPO Addresses:
+    - Standard Ground Shipping is available to PO Boxes and Military addresses (APO/FPO/DPO) and is delivered via the United States Postal Service (USPS).
+    - Expedited, Express, and Overnight shipping options are strictly unavailable for PO Boxes and military addresses because private carriers (FedEx, UPS) cannot deliver to these locations.
+4.2. Address Accuracy and Verification:
+    - We utilize automated address verification systems (AVS) at checkout. If an address is flagged as invalid or incomplete (e.g., missing apartment or suite number), our customer service team will hold the order and contact you.
+    - The customer is responsible for ensuring all shipping information is 100% correct. If a package is returned to us as undeliverable due to an incorrect address entered by the customer, a re-shipping fee of $5.99 will apply, or the order will be refunded minus the original shipping costs.
 
-5. Delayed Packages, Force Majeure, and Carrier Issues
-While we do our best to ensure timely delivery, we cannot guarantee arrival dates in the event of carrier delays, severe weather conditions, natural disasters, sorting facility backlogs, or unexpected holiday peak season volume. If your package has been in transit for more than ten (10) business days beyond the estimated delivery date, please reach out to support@company.com, and we will coordinate with the carrier to initiate a missing package search or issue a replacement order.
+5. PACKAGE TRACKING & STATUS COMMUNICATIONS
+5.1. Once your package is scanned into the carrier's system at our warehouse dock, an automated Shipping Confirmation Email will be sent to the email address associated with the order.
+5.2. This email contains a clickable tracking link and a tracking number. Tracking information may take up to 24 hours to update on the carrier's website after the label is generated.
+5.3. We offer SMS shipping updates. Customers can opt-in during checkout to receive text alerts when their package is shipped, out for delivery, and confirmed delivered.
+
+6. LOST, STOLEN, OR DAMAGED PACKAGES
+6.1. Stolen Packages ("Porch Piracy"):
+    - If a package tracking status is marked as "Delivered" by the carrier, but the customer claims they have not received it, the customer must first check around their property, with neighbors, or with building management.
+    - We are not legally responsible for packages stolen from a customer's doorstep once marked delivered. We highly recommend using a secure delivery address, utilizing carrier hold-for-pickup options, or selecting signature confirmation.
+6.2. Lost in Transit:
+    - A package is considered "Lost in Transit" if there has been no tracking scan activity for 5 consecutive business days for domestic shipments, or 14 consecutive business days for international shipments.
+    - In such cases, please contact our support team at logistics@ecommercegroup.com. We will initiate a formal trace investigation with the carrier. The carrier investigation takes 3 to 5 business days. Once the carrier confirms the package is lost, we will issue a replacement or a full refund.
+6.3. Transit Damage:
+    - If a package arrives visibly crushed, torn, or wet, the customer should document the state of the box with photos before opening it. If the contents inside are damaged, report this to our customer support chat within 48 hours.
+
+7. INTERNATIONAL SHIPPING
+7.1. Destinations:
+    - We ship to over 150 countries worldwide. A complete list of restricted countries is available at checkout.
+7.2. Customs, Duties, and Taxes (DDP vs. DDU):
+    - Delivered Duty Paid (DDP): For select countries (Canada, United Kingdom, European Union countries, Australia), all import duties, customs fees, and local taxes (VAT/GST) are calculated and collected at checkout. The customer will not face additional charges upon delivery.
+    - Delivered Duty Unpaid (DDU): For all other countries, orders are shipped DDU. The customer is the importer of record and must pay all local duties, clearance fees, and import taxes upon arrival. The company is not responsible for packages abandoned due to non-payment of customs fees.
+7.3. Transit Times:
+    - International Economy: 10 to 21 business days.
+    - International Priority (DHL/FedEx): 3 to 7 business days.
+
+8. SHIPPING HAZARDOUS MATERIALS AND LITHIUM BATTERIES
+8.1. Certain products containing lithium-ion batteries (e.g., laptops, electronic tools, smart devices) or pressurized liquids are classified as hazardous materials (HAZMAT).
+8.2. Under Department of Transportation (DOT) and Federal Aviation Administration (FAA) laws, HAZMAT items can only be shipped via Ground transportation.
+8.3. Consequently, if your order contains a HAZMAT item, you will be restricted to Standard Ground shipping at checkout. Air shipping options (Expedited, Express, Overnight) will be grayed out.
+
+9. MULTIPLE PACKAGE SHIPMENTS
+9.1. To expedite delivery, orders containing multiple items may be split and shipped from different regional fulfillment centers.
+9.2. In this event, you will receive separate shipping confirmation emails and tracking numbers for each package.
+9.3. There is no additional shipping charge for split shipments. The shipping price paid at checkout covers the entire order regardless of how many packages are sent.
+
+10. GEOGRAPHIC SHIPPING DETAILS & TIMELINE GRID
+To help you plan, here is a detailed breakdown of transit estimates across different regions:
+- Northeast/Mid-Atlantic US: 3 to 4 business days from our Pennsylvania hub.
+- Midwest US: 3 to 5 business days from our Kentucky hub.
+- Western US: 3 to 4 business days from our Nevada hub.
+- Alaska/Hawaii: 5 to 9 business days via USPS Priority Mail.
+- US Military bases (APO/FPO/DPO): 10 to 18 business days.
+- Canada (Ontario/Quebec): 4 to 7 business days (DDP).
+- Western Europe: 5 to 8 business days (DHL International Priority).
+- Australia/New Zealand: 6 to 9 business days (DHL International Priority).
+
+11. SUSTAINABLE PACKAGING AND GREEN LOGISTICS INITIATIVES
+At E-Commerce Global Retail Group, we are committed to reducing our environmental footprint. We have implemented several green shipping initiatives:
+11.1. Eco-Friendly Materials:
+    - 95% of our cardboard shipping boxes are made from 100% recycled paper content.
+    - We have replaced traditional plastic bubble wrap and foam packing peanuts with biodegradable paper cushioning and cornstarch-based peanuts that dissolve in water.
+    - All shipping documents, invoices, and packing slips are printed on FSC-certified paper using non-toxic soy-based inks.
+11.2. Box Optimization:
+    - We utilize 3D spatial scanning software at our packaging lines to calculate the smallest possible box dimension required for each order, minimizing empty space and reducing waste.
+11.3. Carbon-Neutral Shipping:
+    - Customers can select "Carbon Neutral Shipping" at checkout for an additional $0.25. The company matches this contribution to purchase verified carbon offsets funding wind, solar, and reforestation projects globally.
+
+12. SHIPPING FAQS
+Q1: Can I change my shipping address after placing an order?
+A: You can change the shipping address only if the order status is "Pending" and has not been sent to our fulfillment queue. This window is typically 30 minutes. Contact support chat immediately with your Order ID. Once an order status is "Processing" or "Shipped," the address cannot be altered.
+
+Q2: My tracking number shows no activity. What should I do?
+A: It is normal for tracking numbers to show no activity for the first 24 hours. The carrier must scan the package at their sorting hub before details appear. If there is no activity after 48 hours, contact logistics@ecommercegroup.com.
+
+Q3: What happens if I refuse a delivery?
+A: If you refuse a delivery, the package will be returned to us. Once received, we will refund the order minus a return processing fee of $10.00 and the original shipping charges.
+
+Q4: Do you ship to P.O. Boxes internationally?
+A: No. We only ship to physical street addresses for all international orders.
+
+Q5: Do you offer weekend delivery?
+A: Standard Ground does not guarantee weekend delivery, though USPS and FedEx Home Delivery may deliver on Saturdays in select areas. Express and Overnight air shipments only deliver Monday through Friday.
+
+Q6: Why is my shipping delayed?
+A: Delays can occur due to severe weather, customs clearances, national holidays, labor disputes, or carrier sorting errors. We monitor delayed packages and will communicate updates if a major disruption occurs.
+
+Q7: What is shipping insurance, and is it included?
+A: We provide basic carrier insurance on all packages up to $100.00. For high-value orders, you can purchase premium shipping insurance at checkout for an additional $1.99, which covers the full value of the order against loss, theft, and damage.
+
+Q8: How is the free shipping threshold calculated?
+A: The free shipping threshold of $50.00 is calculated based on the subtotal of the items in your cart after promo codes are applied, but before taxes or shipping fees are added.
+
+Q9: Do you ship to US Territories?
+A: Yes. We ship to Puerto Rico, Guam, US Virgin Islands, and Northern Mariana Islands. These shipments are processed via USPS Priority Mail and take 5 to 9 business days.
+
+Q10: Can I schedule a specific delivery time?
+A: We cannot schedule specific delivery times. However, once you receive your tracking number, you can sign up for FedEx Delivery Manager or UPS My Choice (both free services) on the carrier's site to request delivery windows or redirect packages to local retail pick-up locations.
+
+Q11: What is your policy for holiday shipping deadlines?
+A: To guarantee delivery by December 24th, domestic standard shipping orders must be placed by December 11th. Express shipping orders must be placed by December 18th, and Next-Day priority orders must be placed by December 21st. International deadlines vary and are published on our home page on November 1st.
+
+Q12: What courier do you use for remote rural zip codes?
+A: For rural and remote geographic regions within the domestic territory, FedEx/UPS may route packages to the USPS for final mile delivery under the SmartPost/SurePost carrier programs. This adds 1-2 business days to the standard timeline.
+
+Q13: Do you ship perfume, nail polish, or aerosol sprays?
+A: Yes, but because these items are flammable, they are classified as hazardous materials (HAZMAT) by IATA and DOT. They cannot be shipped via air. Therefore, same-day, next-day, and 2-day express shipping options are disabled for these products.
+
+Q14: Can my package be held at a local FedEx or UPS store?
+A: Yes. Once your tracking number is active, you can go to the courier's tracking portal and request "Hold at Location" to pick it up at a nearby retail outlet (like Walgreens, CVS, or a UPS/FedEx store) at no extra charge.
+
+Q15: What happens if my tracking information says "Delivered" but the courier left the package at a different address?
+A: If the package was delivered to an incorrect address by courier error, contact us immediately. We will open a GPS geolocation check with the carrier to verify the coordinates of the delivery scan and resolve the issue.
