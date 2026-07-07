@@ -73,17 +73,61 @@ class HostedHuggingFaceEmbeddings(Embeddings):
         headers = {}
         if self.api_key:
             headers["Authorization"] = f"Bearer {self.api_key}"
-        response = requests.post(self.api_url, headers=headers, json={"inputs": texts})
-        return response.json()
+        
+        response = requests.post(
+            self.api_url, 
+            headers=headers, 
+            json={"inputs": texts, "options": {"wait_for_model": True}}
+        )
+        res = response.json()
+        
+        if isinstance(res, dict) and "error" in res:
+            raise ValueError(f"HuggingFace API Error: {res['error']}")
+            
+        embeddings = []
+        for item in res:
+            # Check if HuggingFace returned token-level embeddings (3D list)
+            if isinstance(item, list) and len(item) > 0 and isinstance(item[0], list):
+                # Perform Mean Pooling over the token embeddings to get a single vector
+                num_tokens = len(item)
+                dim = len(item[0])
+                mean_vec = [0.0] * dim
+                for token_vec in item:
+                    for d in range(dim):
+                        mean_vec[d] += token_vec[d]
+                mean_vec = [v / num_tokens for v in mean_vec]
+                embeddings.append(mean_vec)
+            else:
+                embeddings.append(item)
+        return embeddings
 
     def embed_query(self, text: str) -> list[float]:
         headers = {}
         if self.api_key:
             headers["Authorization"] = f"Bearer {self.api_key}"
-        response = requests.post(self.api_url, headers=headers, json={"inputs": [text]})
+        
+        response = requests.post(
+            self.api_url, 
+            headers=headers, 
+            json={"inputs": [text], "options": {"wait_for_model": True}}
+        )
         res = response.json()
+        
+        if isinstance(res, dict) and "error" in res:
+            raise ValueError(f"HuggingFace API Error: {res['error']}")
+            
         if isinstance(res, list) and len(res) > 0:
-            return res[0]
+            item = res[0]
+            if isinstance(item, list) and len(item) > 0 and isinstance(item[0], list):
+                # Mean Pooling
+                num_tokens = len(item)
+                dim = len(item[0])
+                mean_vec = [0.0] * dim
+                for token_vec in item:
+                    for d in range(dim):
+                        mean_vec[d] += token_vec[d]
+                return [v / num_tokens for v in mean_vec]
+            return item
         return []
 
 # Initialize FastAPI app
