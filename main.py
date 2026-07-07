@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceInferenceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_classic.chains import create_retrieval_chain
@@ -114,8 +114,12 @@ def setup_rag_pipeline():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
     splits = text_splitter.split_documents(docs)
 
-    # 3. Create embeddings and vector store
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    # 3. Create embeddings and vector store using hosted HuggingFace Inference API (saves RAM & speeds up start)
+    hf_token = os.environ.get("HF_TOKEN")
+    embeddings = HuggingFaceInferenceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        api_key=hf_token
+    )
     vectorstore = FAISS.from_documents(splits, embeddings)
     retriever = vectorstore.as_retriever()
 
