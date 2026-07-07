@@ -292,17 +292,21 @@ body {
     min-width: 90px;
 }
 
-.chat-form button:hover {
+.chat-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.chat-form button:hover:not(:disabled) {
     background-color: var(--primary-hover);
 }
 
-.chat-form button:active {
+.chat-form button:active:not(:disabled) {
     transform: scale(0.98);
 }
 
 /* Loading Spinner */
 .spinner {
-    display: none;
     width: 18px;
     height: 18px;
     border: 2px solid rgba(255, 255, 255, 0.3);
@@ -320,9 +324,14 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+.streaming-placeholder {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .sidebar {
-        display: none; /* In production we would build a drawer, keeping simple for interview/fresher */
+        display: none;
     }
 }
