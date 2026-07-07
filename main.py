@@ -15,7 +15,8 @@ from dotenv import load_dotenv
 
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceInferenceEmbeddings
+import requests
+from langchain_core.embeddings import Embeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_classic.chains import create_retrieval_chain
@@ -61,6 +62,29 @@ def init_db():
     conn.close()
 
 init_db()
+
+class HostedHuggingFaceEmbeddings(Embeddings):
+    def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2", api_key: str = None):
+        self.model_name = model_name
+        self.api_key = api_key
+        self.api_url = f"https://api-inference.huggingface.co/models/{model_name}"
+
+    def embed_documents(self, texts: list[str]) -> list[list[float]]:
+        headers = {}
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
+        response = requests.post(self.api_url, headers=headers, json={"inputs": texts})
+        return response.json()
+
+    def embed_query(self, text: str) -> list[float]:
+        headers = {}
+        if self.api_key:
+            headers["Authorization"] = f"Bearer {self.api_key}"
+        response = requests.post(self.api_url, headers=headers, json={"inputs": [text]})
+        res = response.json()
+        if isinstance(res, list) and len(res) > 0:
+            return res[0]
+        return []
 
 # Initialize FastAPI app
 app = FastAPI(title="E-Commerce Support Bot API")
@@ -116,7 +140,7 @@ def setup_rag_pipeline():
 
     # 3. Create embeddings and vector store using hosted HuggingFace Inference API (saves RAM & speeds up start)
     hf_token = os.environ.get("HF_TOKEN")
-    embeddings = HuggingFaceInferenceEmbeddings(
+    embeddings = HostedHuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
         api_key=hf_token
     )
